@@ -1,5 +1,5 @@
-# Myportfolio :printer:
-Portfolio inicial para criação de um tema wordpress
+# MyPortfólio :printer:
+Portfólio inicial para criação de um tema wordpress.
 
 ### **Página de Upload** :battery:
 
