@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type= "text/css" href="css/main.css"/>
-    <title>Maiara Sacramento - FrontEnd</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type= "text/css" href="css/main.css"/>
+        <title>Maiara Sacramento - FrontEnd</title>
+    </head>
 
-<body>
-    <header class="mss-topbar">
-        <div class="mss-logo">
-            <img src="img/logo.svg" alt="Logo M S Sacramento"/>
+    <body>
+        <div class="mss-preloader">
+            <div class="mss-preloader-inner">
+                <img src="/img/keyboard.svg" class="mss-mar-bottom-15" alt="keyboard"/>
+                <p class="mss-text-light mss-mar-top-15">Aguarde um pouquinho ... Estou preparando a minha entrada.</p>
+            </div>
+        </div>    
+
+        <header class="mss-topbar">
+            <div class="mss-logo"><img src="img/logo.svg" alt="Logo M S Sacramento"/></div>
+            <nav class="mss-menu">
+                <a href="#">Home</a>
+                <a href="#">Projetos</a>
+                <a href="#">Sobre</a>
+            </nav>
+        </header>
+            
+        <div class="mss-contact-info mss-bg-black">
+            <div class="mss-contact-info-inner">
+                <h2 class="font-family mss-text-blue">Contato</h2>
+                <p class="mss-text-light">nova.aguiaimperial@gmail.com</p>
+                <p class="mss-text-light"> +55 99168-4551</p>
+            </div>
+
+            <div class="mss-social-links">
+                <a href="https://www.linkedin.com/in/maiara-sacramento-60118092/" class="mss-social"><img src="/img/logo-rs-linkedin.svg" alt="Linkedin"></a>
+                <a href="https://github.com/mssacramento" class="mss-social"><img src="/img/logo-rs-github.svg" alt="GitHub"></a>
+                <a href="https://www.instagram.com/mssacramento13/" class="mss-social"><img src="/img/logo-rs-instagram.svg" alt="Instagram"></a>
+            </div>
+            <div class="mss-corner"></div>
         </div>
-        <nav class="mss-menu">
-            <a href="#">Home</a>
-            <a href="#">Projetos</a>
-            <a href="#">Sobre</a>
-        </nav>
-    </header>
-    
-    <div class="mss-contact-info">
+        
+        <button class="mss-btn-contact" ></button>
+        <section class="mss-page-wrapper"></section>
 
-    </div>
-
-    <div class="mss-btn-contact" >
-
-    </div>
-    <section class="mss-page-wrapper"></section>
-</body>
+        <script src="js/main.js"></script>
+    </body>
 </html>
